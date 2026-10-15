@@ -5,7 +5,7 @@ lang: en
 
 # Lenumori Privacy Policy
 
-Effective date: 2026-10-15
+Effective date: 2026-10-16
 
 This is an English translation of the Korean Lenumori privacy policy. If the two versions differ, the Korean version prevails.
 
@@ -196,42 +196,103 @@ Third-party SDKs currently included that send data externally:
 - Google Mobile Ads SDK (AdMob), Google User Messaging Platform (ad consent) — see "3. Sending data to external servers > Ads" above
 - Google Play Billing Library — see "3. Sending data to external servers > Payments" above
 
-## 8. Data retention and deletion
+## 8. Processing and retention period
 
-Photo-related information and tags created by Lenumori are stored on your device by default.
+The Lenumori operator does not run servers and does not keep information created while you use the app on any server run by the operator.
+
+- Information stored on your device (see "4. Information stored on your device" above): kept only on your device until you delete it in the app or uninstall the app.
+- Information Google collects through its SDKs (see "3. Sending data to external servers" above): kept by Google for the period set out in Google's privacy policy.
+- Email inquiries: your email address and message are used only to reply, and are deleted one year after the inquiry is resolved.
 
 Photos and videos you take are saved in the same photo folder as your phone's default camera (DCIM/Camera).
 Photo files include capture information (EXIF) such as capture time, device model and exposure values; location is not recorded.
 Location is not recorded in video files either.
 
-You can delete photos, videos or related tag information using the delete feature in the app.
-Deleting a photo or video also deletes the file in your phone's gallery and its tags, and this cannot be undone.
+## 9. Destruction procedure and method
 
-When you uninstall the app, data stored in the app's private storage may be deleted according to Android system policy.
-Photos and videos saved to shared photo storage may remain after the app is uninstalled.
+- When you delete a photo or video in the app, the file in your phone's gallery and the tags and descriptions stored in the app are deleted immediately, and this cannot be undone.
+- When you uninstall the app, information stored in the app's private storage (tags, settings, filter history, etc.) is deleted by the Android system.
+  Photos and videos saved to the shared photo folder remain after the app is uninstalled, and you can delete them in your phone's gallery.
+- Email inquiry records are permanently deleted from the mailbox when the retention period ends.
+- The operator keeps no other personal information, so there is nothing else to destroy.
 
-## 9. Children's privacy
+## 10. Provision to third parties and outsourcing
+
+The Lenumori operator does not provide your personal information to third parties and does not outsource the processing of personal information.
+
+However, Google's SDKs included in the app (ML Kit, ads, Google Play Billing) send the information described in "3. Sending data to external servers" directly to Google.
+This transfer is explained in "11. Transfer of personal information overseas" below.
+
+Lenumori does not process sensitive information, unique identification information or pseudonymized information.
+
+## 11. Transfer of personal information overseas
+
+Through the Google SDKs included in the app, information is transferred overseas as follows.
+(Basis: Article 28-8(1)(iii)(a) of the Korean Personal Information Protection Act — necessary to provide the service and disclosed in this privacy policy)
+
+- Recipient: Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; privacy inquiries: https://policies.google.com/privacy)
+- Countries: the United States and other countries where Google has data centers
+- When and how: from time to time while you use the app, sent over the internet with encryption (HTTPS)
+- Items and purposes:
+  - Google ML Kit: device information, app information, a per-installation identifier, performance and error information — improving features and diagnosing problems
+  - Google ads (AdMob): advertising ID, app set ID, device information, IP address, app and ad usage information, diagnostic information — serving ads, measuring ad performance, preventing invalid clicks and (if you consent) personalized ads
+  - Google Play Billing: whether you purchased and purchase verification information — processing and checking Premium purchases
+- Retention period: as set out in Google's privacy policy
+- How to refuse and what happens if you do:
+  - Ads: if you buy Premium, the ad SDK is not started and no information is sent for advertising. You can also delete your advertising ID in your phone's Settings > Google > Ads.
+  - ML Kit and billing: nothing is sent if you turn off your phone's internet connection. In that case you cannot buy Premium or download some AI models, but taking, saving and organizing photos and other features still work.
+
+## 12. Your rights and how to exercise them
+
+You (or your legal guardian, for children under 14) may at any time request access to, correction of, deletion of, or suspension of processing of your personal information.
+
+- Information stored on your device: you can view, edit and delete photos, videos and tags directly in the app, and uninstalling the app deletes everything stored in it.
+- Ad information collected by Google: you can delete or reset your advertising ID in your phone's Settings > Google > Ads,
+  and in regions that require consent you can change your consent in the app's "Settings > Ad privacy settings".
+- Other requests: email the privacy officer listed in "16. Privacy officer" below and we will reply within 10 days.
+
+## 13. Automatic data collection tools and how to refuse them
+
+The app includes Google's ad SDK, which uses the advertising ID to recognize a device, similar to a cookie on a website.
+What it collects and why is described in "3. Sending data to external servers > Ads" above.
+
+How to refuse:
+- Delete or reset your advertising ID in your phone's Settings > Google > Ads.
+- Buy Premium, so the ad SDK is not started.
+
+## 14. Security measures
+
+- There is no operator server, so your photos, videos, tags and other information are not collected on a server.
+- App information is stored in Android's app-private storage, which other apps cannot read.
+- The app itself does not send information over the internet, and unencrypted connections (HTTP) are blocked. The included Google SDKs send data encrypted (HTTPS).
+- The app requests only the permissions it needs and does not request location permission.
+- Before adding a new SDK or permission, we check whether it sends data and update this privacy policy.
+
+## 15. Children's privacy
 
 Lenumori is not intended to knowingly collect personal information from children.
 Lenumori is not an app primarily directed at children, and its ads are not directed at children either.
 
 If the app's target age or features change in the future, the relevant Google Play policies will be reviewed and the necessary measures applied.
 
-## 10. Privacy protection
+## 16. Privacy officer
 
-Lenumori's basic design principle is to minimize unnecessary permission requests and external data transfers.
+For privacy questions, complaints, remedies or requests to exercise your rights, contact the privacy officer below.
 
-Information that can be processed on the device is processed on the device wherever possible.
+- Privacy officer: BoJeong Ko (developer and operator)
+- Email: sweetpotatos.support@gmail.com
 
-## 11. Changes to this privacy policy
+## 17. Remedies for privacy violations (Korea)
+
+If you need to report or get advice about a privacy violation, you can contact the following Korean agencies.
+
+- Personal Information Dispute Mediation Committee: 1833-6972, www.kopico.go.kr
+- Personal Information Infringement Report Center: 118, privacy.kisa.or.kr
+- Supreme Prosecutors' Office: 1301, www.spo.go.kr
+- Korean National Police Agency: 182, ecrm.police.go.kr
+
+## 18. Changes to this privacy policy
 
 This privacy policy may change if the app's features, the SDKs it uses or how it handles data change.
 
 Important changes may be announced in the app or on the distribution page.
-
-## 12. Contact
-
-Questions about privacy or this privacy policy can be sent to the contact below.
-
-- Developer/operator: BoJeong Ko
-- Email: sweetpotatos.support@gmail.com
